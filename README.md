@@ -1,9 +1,14 @@
-# Fabric Example Mod
+# Commands Backdoor
 
-## Setup
+The Name of this mod is purely because it *technically is* a backdoor,
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+***DO NOT USE ON A SERVER HOST, WILL MOST LIKELY GET YOUR ACCOUNT AND SERVER DELETED***
 
-## License
+This mod allows the user to run commands from ingame, through two commands
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+1. `/cmd`
+	* this one will be removed and is purely for testing things
+	* on windows, this just opens a command prompt from within the `.minecraft` folder
+2. `/exec <command>`
+	* this takes whatever you put for `command` and runs it as an actual command on the server host
+	* hence why I say to *never run this on a server host that you do not physically own*
